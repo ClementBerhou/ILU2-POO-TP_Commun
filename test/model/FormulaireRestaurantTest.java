@@ -21,7 +21,7 @@ class FormulaireRestaurantTest {
 
 	@Test
 	void testFormulaireRestaurant() {
-		assertNotNull(formulaire, "formulaire null");
+		assertNotNull(formulaire, "formulaire null"); 
 	}
 
 	@Test
@@ -34,7 +34,7 @@ class FormulaireRestaurantTest {
 	void testGetNumService() {
 		assertEquals(NUM_SERVICE, formulaire.getNumService(), "Le numéro de service devrait être " + NUM_SERVICE);
 	}
-
+ 
 	@Test
 	void getJour() {
 		assertEquals(JOUR, formulaire.getJour(), "Le jour devrait être " + JOUR);
